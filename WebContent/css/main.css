@@ -1,0 +1,32 @@
+*{ margin:0;padding:0;}
+body{ font-family:'Microsoft YaHei';width:100%;height:100%;}
+
+footer{ width:100%;height:40px;line-height:40px;background:#202020;color:#e8fac5;}
+footer i{ float:right;padding-right:20px;}
+footer span{ padding-left:20px;padding-right:180px;}
+
+.main-cont{ width:1200px;text-align:center;overflow:hidden;margin:auto;margin-top:30px;}
+.main-cont .banner .banner-pic li{ float:left;}
+.main-cont .banner .banner-pic{ list-style:none;width:10000px;margin-left:-1000px;overflow:hidden;}
+.main-cont .banner .banner-pic li a img{ width:1000px;}
+.main-cont .banner{ position:relative;overflow:hidden;width:1000px;margin:0 auto;}
+.main-cont .btn .btn-pre{ opacity:0;cursor:pointer;display:block;width:30px;height:90px;position:absolute;top:50%;transform: translateY(-50%);background:rgba(0,0,0,0.3);left:0;font-size:30px;line-height:90px;text-align:center;}
+.main-cont .btn .btn-next{ opacity:0;cursor:pointer;display:block;width:30px;height:90px;position:absolute;top:50%;transform: translateY(-50%);background:rgba(0,0,0,0.3);right:0;font-size:30px;line-height:90px;text-align:center;}
+.main-cont .btn ul li a{ cursor:pointer;text-decoration:none;color:white;display:block;border-radius: 50%;line-height:40px;width: 40px;height: 40px;background-color: rgba(0,0,0,.3);}
+.main-cont .btn ul li{ float: left;list-style: none;width: 60px;}
+.main-cont .btn{ }
+.main-cont .btn ul{ position: absolute;bottom: 60px;left:50%;transform: translateX(-50%);text-align: center;overflow:hidden;}
+.main-cont .btn ul li a:hover,.main-cont .btn ul li .active{ background:rgba(0,0,0,0.7);}
+.cont:hover .main-cont .btn span{ opacity:1;transition:0.6s;}
+
+
+.main-cont #article{ margin:30px auto;}
+.main-cont #article h3{ border-bottom:1px solid #ddd;padding-bottom:10px;}
+.main-cont #article ul{ list-style:none;text-align:left;margin:40px auto;width:1146px;}
+.main-cont #article ul .item{ transition:.3s;border:1px solid #ddd;display:inline-block;width:200px;height:300px;background:#f4f4f4;margin:10px 30px;padding:10px;overflow:hidden;}
+.main-cont #article ul .item .item-header{ font-size:14px;color:#606060;text-align:center;}
+.main-cont #article ul .item .item-name{ font-size:18px;text-align:center;line-height:40px;}
+.main-cont #article ul .item .item-writer{ font-size:15px;text-align:center;}
+.main-cont #article ul .item .item-des{ font-size:16px;text-indent:32px;margin-top:20px;}
+.main-cont #article ul .item:hover{ transform:translateY(-5px);box-shadow: 0 5px 10px #c1c1c1;}
+

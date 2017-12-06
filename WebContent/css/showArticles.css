@@ -1,0 +1,9 @@
+*{ padding:0;margin:0;}
+.cont div h3{ text-align:center;margin-top:30px;}
+.cont div ul{ width:1146px;margin:20px auto;text-align:left;overflow:hidden;}
+.cont div ul .item{  transition:.3s;border:1px solid #ddd;width:200px;height:300px;background:#f4f4f4;margin:30px;padding:10px;overflow:hidden;float:left;}
+.item .item-header{ font-size:14px;color:#606060;text-align:center;}
+.item .item-name{ font-size:18px;text-align:center;line-height:40px;}
+.item .item-writer{ font-size:15px;text-align:center;}
+.item .item-des{ font-size:16px;text-indent:32px;margin-top:20px;}
+.item:hover{ transform:translateY(-5px);box-shadow: 0 5px 10px #c1c1c1;}

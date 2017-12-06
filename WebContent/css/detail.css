@@ -1,0 +1,31 @@
+*{ padding:0;margin:0;}
+body,html{ background:#f0f0f0;font-family:'Microsoft YaHei';}
+.cont{ overflow:hidden;}
+.cont .article{ width:1000px;margin:30px 0 0 150px;padding:10px;float:left;}
+.cont .article .article-message{ border-bottom:1px solid #adadad;padding-bottom:10px;}
+.cont .article .article-message p{ padding:5px;color:#686868;}
+.cont .article .article-message p span{ color:black;}
+.cont .article .article-message .time span:last-child{ float:right;padding-right:20px;color:#686868;}
+.cont .article .article-message .time span:last-child a{ cursor:pointer;margin-left:15px;color:black;}
+.cont .article .article-message h1{ text-align:center;letter-spacing:20px;}
+.cont .article .article-cont pre{ white-space: pre-wrap;word-wrap: break-word;font-size:18px;margin-top:20px;line-height:28px;}
+.cont .article .article-cont{ border-bottom:1px solid #adadad;padding-bottom:30px;}
+
+
+.cont .writer{ float:right;margin:60px 30px 0 20px;}
+.cont .writer .writer-message img{ height:100px;position:relative;top:50px;}
+
+
+.cont .discuss{ margin:10px 0 0 150px;padding:10px;}
+.cont .discuss #discuss-text{ width:600px;height:150px;margin:10px 0 10px 0px;resize:none;box-shadow:0 0 5px #c7c7c7 inset;padding:5px;overflow-x:hidden;}
+.cont .discuss #commit{ text-decoration:none;display:inline-block;width:100px;height:40px;background:#68a9dd;border:1px solid #68a9dd;border-radius:5px;text-align:center;line-height:40px;position:relative;top:-30px;left:30px;color:white;}
+.cont .discuss #commit:visited{ color:white;}
+.cont .discuss .discuss-cont{ background:white;width:1000px;padding:10px;box-sizing:border-box;overflow:hidden;margin-bottom:30px;}
+.cont .discuss .discuss-cont .discuss-writer{ font-size:16px;margin-bottom:10px;}
+.cont .discuss .discuss-cont pre{ white-space: pre-wrap;word-wrap: break-word;}
+.cont .discuss .discuss-cont .agree-dis{ float:right;margin-right:30px;}
+.cont .discuss .discuss-cont .agree-dis .agree,.disagree{ display:inline-block;font-size:18px;}
+.cont .discuss .discuss-cont .agree-dis .disagree{ margin-left:20px;}
+.cont .discuss .discuss-cont .discuss-writer span:last-child{ float:right;margin-right:30px;}
+
+
