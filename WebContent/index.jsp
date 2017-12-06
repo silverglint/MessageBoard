@@ -8,7 +8,9 @@
 <title>留言板</title>
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+
 <%
+	//获取绝对路径
     String path = request.getContextPath();
     int port = request.getServerPort();
     String basePath  = null;
